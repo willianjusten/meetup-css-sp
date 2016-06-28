@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS <3 Math - MeetupCSS SP</title>
+    <meta name="description" content="Uma apresentação sobre a importância da matemática dentro do CSS.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/folder-img.png">
+    <meta property="og:description" content="Uma apresentação sobre a importância da matemática dentro do CSS.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1 class="main-title">
+             
+            CSS<span id="heart" class="heart"></span>MATH
+          </h1>
+          <p class="main-links"><a href="http://willianjusten.com.br/">Willian Justen </a>/ <a href="https://twitter.com/Willian_justen">@Willian_justen</a></p>
+        </section>
+        <section>
+          <section class="align-left">
+            <div>
+              <p>As vezes eu escrevo...</p><a href="http://willianjusten.com.br">willianjusten.com.br</a>
+            </div>
+            <div class="fragment">
+              <hr>
+              <p>As vezes eu faço código open source...</p><a href="http://github.com/willianjusten">github.com/willianjusten</a>
+            </div>
+            <div class="fragment">
+              <hr>
+              <p>E também faço cursos online!</p><a href="http://willianjusten.com.br/cursos">willianjusten.com.br/cursos</a>
+            </div>
+          </section>
+        </section>
+        <section>
+          <h4>Alguns lugares que já trabalhei...</h4><img src="img/jobs.png" alt="Jobs">
+        </section>
+        <section>
+          <h2>
+             
+            Quem aqui gosta de <span class="highlight-item">Matemática?</span>
+          </h2>
+        </section>
+        <section>
+          <h2>Não tem como</h2>
+          <h2 class="highlight-item">fugir =)</h2>
+        </section>
+        <section>
+          <h2>Matemática está em </h2>
+          <h2 class="highlight-item">tudo!</h2>
+        </section>
+        <section data-background-image="img/fear.gif"></section>
+        <section data-background-image="img/dont.gif"></section>
+        <section>
+          <h2>Matemática tem </h2>
+          <h2>
+             
+            diversas <span class="highlight-item">áreas</span>
+          </h2>
+        </section>
+        <section>
+          <h2 class="highlight-item">Aritmética</h2>
+          <p class="space-top">Parte da matemática que estuda as operações numéricas: soma, subtração, multiplicação, divisão etc.</p>
+        </section>
+        <section>
+          <h2 class="highlight-item">Calc()</h2>
+          <p class="space-top">É um método que permite expressões matemáticas como adição (+), subtração (-), multiplicação (*) e divisão (/) dentro do CSS.</p>
+        </section>
+        <section>
+          <h2 class="highlight-item">Compatibilidade</h2><img src="img/calc-caniuse.png" alt="Can I Use - Calc"><a href="http://caniuse.com/#feat=calc">caniuse.com/#feat=calc</a>
+        </section>
+        <section>
+          <h2 class="highlight-item">Vantagens do Calc</h2>
+          <p class="space-top">Podemos fazer operações com propriedades de unidades diferentes, como somar <span class="highlight-item">% </span>com <span class="highlight-item">px.</span></p>
+        </section>
+        <section>
+          <h4 class="highlight-item">#1 - Conteúdo com altura máxima</h4><p data-height="300" data-theme-id="11319" data-slug-hash="mEWEPO" data-default-tab="css,result" data-user="willianjusten" data-embed-version="2" class="space-top codepen">See the Pen <a href="http://codepen.io/willianjusten/pen/mEWEPO/">Conteúdo com altura máxima</a> by Willian Justen de Vasconcellos (<a href="http://codepen.io/willianjusten">@willianjusten</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </section>
+        <section>
+          <h4 class="highlight-item">#2 - Centralizando Verticalmente</h4><p data-height="300" data-theme-id="11319" data-slug-hash="vKxKeg" data-default-tab="css,result" data-user="willianjusten" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/willianjusten/pen/vKxKeg/">Vertical Align with Calc()</a> by Willian Justen de Vasconcellos (<a href="http://codepen.io/willianjusten">@willianjusten</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </section>
+        <section>
+          <h4 class="highlight-item">#3 - Margens relativas ao tamanho da fonte</h4><p data-height="300" data-theme-id="11319" data-slug-hash="beqeLM" data-default-tab="css,result" data-user="willianjusten" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/willianjusten/pen/beqeLM/">Margens relativas ao tamanho da fonte</a> by Willian Justen de Vasconcellos (<a href="http://codepen.io/willianjusten">@willianjusten</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </section>
+        <section>
+          <h4 class="highlight-item">#4 - Mais fácil leitura</h4>
+          <pre><code>.col-2 {
+    width: 16.66667%;
+}
+
+.col-2 {
+    width: calc((100% / 12) * 2);
+}</code></pre>
+        </section>
+        <section data-background-color="#006abd">
+          <h2 class="white">Criando um Grid com Calc</h2><a href="http://codepen.io/willianjusten/pen/GqWNKa" class="white-link">Codepen</a>
+        </section>
+        <section><img src="img/lost.png" alt="Lost">
+          <p><a href="https://github.com/peterramsing/lost">Lost Grid</a></p>
+        </section>
+        <section>
+          <h2 class="highlight-item">Geometria</h2>
+          <p class="space-top">
+             
+            É um ramo da matemática preocupado com questões de <span class="highlight-item">forma</span>, <span class="highlight-item">tamanho </span>e <span class="highlight-item">posição relativa </span>de figuras e com as propriedades do <span class="highlight-item">espaço.</span>
+          </p>
+        </section>
+        <section>
+          <h2>Formas e Tamanho</h2><a href="https://css-tricks.com/examples/ShapesOfCSS/"><img src="img/shapes.png" alt="Shapes" class="max-size"></a>
+        </section>
+        <section>
+          <h2>Plano Cartesiano</h2><img src="img/planos.png" alt="Plano Cartesiano" class="max-size">
+        </section>
+        <section>
+          <h2>Transforms</h2><img src="img/transforms.png" alt="Transforms" class="max-size">
+        </section>
+        <section>
+          <h4 class="highlight-item">#1 - Flip Card</h4><p data-height="333" data-theme-id="11319" data-slug-hash="QEpGzq" data-default-tab="css,result" data-user="willianjusten" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/willianjusten/pen/QEpGzq/">Flip com transform</a> by Willian Justen de Vasconcellos (<a href="http://codepen.io/willianjusten">@willianjusten</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </section>
+        <section>
+          <h2>Quer mais?</h2><p data-height="426" data-theme-id="11319" data-slug-hash="LzlhE" data-default-tab="result" data-user="thebabydino" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/thebabydino/pen/LzlhE/">Explode rhombic dodecahedron into its first stellation (pure CSS)</a> by Ana Tudor (<a href="http://codepen.io/thebabydino">@thebabydino</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script><a href="http://codepen.io/thebabydino">Ana-Maria Tudor</a>
+        </section>
+        <section>
+          <h1>Obrigado</h1><a href="https://willianjusten.com.br/meetup-css-sp" class="bigger-link">bit.ly/css-math</a>
+        </section>
+      </div>
+    </div>
+    <script src="js/vendor/head.min.js"></script>
+    <script src="js/vendor/reveal.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
