@@ -18,8 +18,8 @@ First of all, install the dependencies to run this boilerplate.
 
 ```sh
 # Clone this repository
-$ git clone git@github.com:Qualy-org/qualy-presenter.git new_project
-$ cd new_project
+$ git clone git@github.com:willianjusten/meetup-css-sp.git
+$ cd meetup-css-sp
 
 # install dependencies
 $ npm install
